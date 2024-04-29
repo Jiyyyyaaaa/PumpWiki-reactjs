@@ -1,0 +1,301 @@
+body{
+  background-color: rgb(34, 34, 34);
+}
+.navBar{
+  display: flex;
+  padding: 6px;
+}
+.navbar1{
+  display: flex;
+  margin-left: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+  width:800px;
+}
+a{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+a:hover{
+  color: #fff;
+}
+.Logo img{
+  height:100px;
+  width:200px;
+}
+.Button {
+  background-color:rgb(178, 248, 71);
+  border: none;
+  color: black;
+  padding:20px;
+  height:25px;
+  margin-top: 20px;
+  /* padding: 15px 32px; */
+  /* text-align: center;
+  text-decoration: none; */
+  /* display: inline-block; */
+  /* font-size: 16px; */
+}
+/***********************************************************************************navbar***************************************************************************************************************************** */
+.Homepage{
+  border-top:2px solid white;
+  display: flex;
+}
+.leftSide{
+  width:50%;
+  height:440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  margin: 0%;
+  color:white;
+  font-family: "Bungee Inline", sans-serif;
+}
+.BodyShape{
+  margin: 0%;
+  color:rgb(178, 248, 71);
+  font-family: "Bungee Inline", sans-serif;
+}
+.leftSide button {
+  background-color: rgb(178, 248, 71);
+  border: 1px solid rgb(178, 248, 71);
+  padding: 10px;
+  width: 125px;
+}
+button i{
+  margin-left:10px ;
+}
+.RightSide{
+  width:50%;
+  height:500px;
+}
+.parallelogram {
+  width: 50%;
+  height: 440px;
+  transform: skew(-20deg);
+  background: rgb(178, 248, 71);
+  position: absolute;
+}
+.RightSide img{
+  height: 473px;
+  width: 500px;
+ 
+  position: relative;
+
+  animation:moveright 1s linear;
+
+}
+/* ************************************************************************************************************************************************************************************ */
+.box2{
+  display:flex;
+  background-color: antiquewhite;
+  
+}
+
+.featured-class img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+/* .featured-class img{
+  height:100px;
+  width:100px;
+  display: flex;
+  
+} */
+/* ************************************************************************************************************************************************************************************ */ 
+
+.container4-heading h2 {
+  color: white;
+  text-align: center;
+}
+.price-box {
+  color: white;
+  background-color: rgb(55, 54, 54);
+  width: 350px;
+  height: 420px;
+  margin-left: 50px;
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.price-box h3{
+  margin-left: 45px;
+  font-size: x-large;
+  margin-top:0%;
+}
+.price-box .price{
+  margin-left: 45px;
+  font-size: x-large;
+  margin-top:0%;
+}
+.price-box button{
+  padding: 10px;
+  margin-left: 90px;
+  background-color: rgb(207, 217, 214);
+}
+.price-box img {
+  height: 60px;
+  border: 2px solid rgb(239, 236, 236);
+  background-color: rgb(226, 226, 226);
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.price-boxes {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.price-box ul li {
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: medium;
+}
+
+.price {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.fade_head {
+  opacity: 0.2;
+}
+.purchase {
+  padding: 10px;
+  margin-left: 55px;
+  background-color: rgb(207, 217, 214);
+}
+.price-box:hover {
+  background-color: rgb(171, 240, 68);
+  color: black;
+}
+/* ************************************************************************************************************************************************************************************ */ 
+.error {
+  color: red;
+}
+
+.wrapper3 {
+  margin-top: 270px;
+  margin-left: 350px;
+  transform: translate(-50%, -50%);
+  padding: 60px;
+  width: 450px;
+  background: rgb(66, 65, 65);
+  border-radius: 5px;
+  box-shadow: rgb(41, 41, 42) 0px 20px 30px -10px;
+  height: 500px;
+}
+.image_right img {
+  height: 70%;
+  margin-left: 240px;
+}
+input {
+  outline: none;
+  border: none;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+#btnCalculate {
+  color: black;
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  border: 2px solid greenyellow;
+  display: block;
+  margin-top: 10%;
+  cursor: pointer;
+  background-color: greenyellow;
+}
+/* .class {
+  position: left;
+} */
+.Kartik-container1 {
+  display: flex;
+}
+.section__title-border {
+  text-align: center;
+  width: auto;
+  color: rgb(251, 251, 251);
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.calculate__description {
+  text-align: center;
+  width: auto;
+  color: greenyellow;
+}
+.calculate__description p {
+  color: greenyellow;
+}
+
+#btn-calculate i {
+  margin: 10px;
+}
+.parallelogram3 {
+  width: 30%;
+  margin-left: 780px;
+  height: 600px;
+  transform: skew(20deg);
+  background: rgb(178, 248, 71);
+  position: absolute;
+
+}
+.image_right {
+  position: relative;
+  height: 800px;
+  margin-top: 50px;
+}
+
+.wrapper3 p {
+  color: white;
+}
+/* ************************************************************************************************************************************************************************************ */ 
+
+.heading2 {
+  font-family: "Bungee Inline", sans-serif;
+ font-size: 40px;
+}
+.heading2{
+   color:white;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   height:150px;
+   align-items: center;
+
+}
+.heading2 span{
+   text-align: center;
+   color: rgb(178,248,71);
+   margin-left: 10px;
+}
+.grid { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding:50px;
+    
+    }
+  .grid img {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    width: 350px;
+    height:250px;
+    
+  }
+  .grid img:hover {
+    box-shadow: 0px 0px 100px  rgb(178,248,71);
+    transform: scale(1.1);
+  }
+
+
+  
